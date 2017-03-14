@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="{$getContextPath}/resource/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <p>hi, {$name}</p>
+    {foreach $stulist as $stu}
+       <li>{$stu.name}</li>
+    {/foreach}
+</body>
+</html>
